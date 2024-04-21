@@ -1,31 +1,40 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Number Guessing Game
 
-Welcome sergiu19996 Porime,
+A simple yet entertaining number guessing game implemented in Python. Test your guessing skills and see if you can guess the correct number within the specified range.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+## Features
 
-## Reminders
+- **Main Menu**: Choose from various options including learning the rules, playing the game, or exiting.
+- **Rule Learning**: Understand the rules of the game before starting to play.
+- **Interactive Gameplay**: Guess a number within the specified range and receive feedback on whether your guess is too high or too low.
+- **Limit Customization**: Adjust the range of numbers to guess from for added challenge.
+- **User-Friendly Interface**: Utilizes a terminal-based menu for easy navigation.
+- **Restart Option**: Return to the main menu after playing a game to start over or explore other options.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+## Installation
 
-## Creating the Heroku app
+1. Clone this repository to your local machine using `git clone`.
+2. Navigate to the project directory.
+3. Ensure you have Python installed on your system.
+4. Install the required dependencies by running `pip install -r requirements.txt`.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+## Usage
 
-1. `heroku/python`
-2. `heroku/nodejs`
+1. Run the script using `python main.py`.
+2. Navigate the main menu using the arrow keys or numeric keys and press Enter to select an option.
+3. If you choose to play the game, enter your guesses when prompted.
+4. Receive feedback on each guess and continue guessing until you find the correct number.
+5. Return to the main menu to explore other options or play another round.
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## Contributing
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+Contributions are welcome! If you have any ideas for improvements, new features, or bug fixes, please open an issue or submit a pull request.
 
-Connect your GitHub repository and deploy as normal.
+## License
 
-## Constraints
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+## Acknowledgments
 
------
-Happy coding!
+- This project was inspired by classic number guessing games.
+- Special thanks to [simple-term-menu](https://github.com/IngoMeyer441/simple-term-menu) for providing an easy-to-use terminal menu library.
