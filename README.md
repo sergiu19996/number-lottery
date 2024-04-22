@@ -11,12 +11,12 @@ A simple yet entertaining number guessing game implemented in Python. Test your 
     - Play the game: Start guessing the number.
     - Exit: Quit the game.
 
-[//]: # (![screencapture-number-lottery-2-a0989c962984-herokuapp-2024-04-22-20_23_21](https://github.com/sergiu19996/number-lottery/assets/126587603/602e2130-bf85-416d-8745-2ef76af723c6)
+: # (![screencapture-number-lottery-2-a0989c962984-herokuapp-2024-04-22-20_23_21](https://github.com/sergiu19996/number-lottery/assets/126587603/602e2130-bf85-416d-8745-2ef76af723c6)
 
 
 3. If you choose to play the game, enter your guess when prompted.
 
-[//]: # (![screencapture-number-lottery-2-a0989c962984-herokuapp-2024-04-22-20_05_56](https://github.com/sergiu19996/number-lottery/assets/126587603/4857330f-07be-41d6-8b0b-10176b2dc0fe)
+: # (![screencapture-number-lottery-2-a0989c962984-herokuapp-2024-04-22-20_05_56](https://github.com/sergiu19996/number-lottery/assets/126587603/4857330f-07be-41d6-8b0b-10176b2dc0fe)
 
 
 4. After each guess, the program will provide feedback.
@@ -101,7 +101,7 @@ Copy code
 
 2. Create your own GitHub repository to host the code.
 
-3. Run the command `git remote set-url origin <Your GitHub Repo Path>` to set the remote repository location to your repository.
+3. Run the command `git remote set-url origin <(https://github.com/sergiu19996/number-lottery/tree/main)>` to set the remote repository location to your repository.
 
 4. Push the files to your repository with the following command: 
 git push
