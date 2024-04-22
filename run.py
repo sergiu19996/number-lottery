@@ -3,6 +3,11 @@ from simple_term_menu import TerminalMenu
 
 
 def main_menu():
+    """
+    Displays the main menu of the game.
+    The user can choose between "Learn the rules", "Play the game", or "Exit".
+    Depending on the user's choice, it triggers the appropriate actions.
+    """
     options = ["Learn the rules", "Play the game", "Exit"]
     terminal_menu = TerminalMenu(options)
     while True:
@@ -12,7 +17,7 @@ def main_menu():
             go_back()
         elif options[menu_entry_index] == "Play the game":
             print("GAME")
-            guess(20)  # Limita de la 1 la 20 pentru jocul de ghicit
+            guess(20)  # Limit from 1 to 20 for the guessing game
             go_back()
         elif options[menu_entry_index] == "Exit":
             print("EXIT")
@@ -22,6 +27,9 @@ def main_menu():
 
 
 def go_back():
+    """
+    Allows the user to go back to the main menu from a sub-menu.
+    """
     options = ["Go back to main menu"]
     go_back_menu = TerminalMenu(options)
     while True:
@@ -31,10 +39,16 @@ def go_back():
 
 
 def guess(x):
+    """
+    Starts the number guessing game.
+    
+    Args:
+        x (int): The upper limit for guessing the number.
+    """
     random_number = random.randint(1, x)
     while True:
         user_input = input(f"Guess a number between 1 and {x}: ")
-        if user_input.isdigit():  # Verifică dacă intrarea este formată din cifre
+        if user_input.isdigit(): 
             guess = int(user_input)
             if 1 <= guess <= x:
                 if guess < random_number:
@@ -51,14 +65,20 @@ def guess(x):
 
 
 def print_rules():
+    """
+    Displays the rules of the game.
+    """
     print("RULES:")
-    print("1. Try to guess the correct number between 1 and the specified limit.")
-    print("2. After each guess, you will be told if the actual number is higher or lower.")
-    print("3. Keep guessing until you find the correct number.")
-    print("4. Have fun and enjoy the game!")
+    print("1. Choose a number between 1 and the specified limit.")
+    print("2. Keep guessing until you find the correct number.")
+    print("3. Enjoy the game and good luck!")
 
 
 def main():
+    """
+    Main function of the program.
+    Displays a welcome message and launches the main menu of the game.
+    """
     print("Hey!")
     main_menu()
 
