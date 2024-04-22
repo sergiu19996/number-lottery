@@ -3,17 +3,26 @@
 A simple yet entertaining number guessing game implemented in Python. Test your guessing skills and see if you can guess the correct number within the specified range.
 
 
-## How to Play:
+## How to Play
+
 1. Run the program by executing the Python script.
 2. Choose an option from the main menu:
     - Learn the rules: Read the rules of the game.
     - Play the game: Start guessing the number.
     - Exit: Quit the game.
+
+[//]: # (![screencapture-number-lottery-2-a0989c962984-herokuapp-2024-04-22-20_23_21](https://github.com/sergiu19996/number-lottery/assets/126587603/602e2130-bf85-416d-8745-2ef76af723c6)
+
+
 3. If you choose to play the game, enter your guess when prompted.
+
+[//]: # (![screencapture-number-lottery-2-a0989c962984-herokuapp-2024-04-22-20_05_56](https://github.com/sergiu19996/number-lottery/assets/126587603/4857330f-07be-41d6-8b0b-10176b2dc0fe)
+
+
 4. After each guess, the program will provide feedback.
 5. Keep guessing until you correctly guess the number.
 6. Have fun and enjoy the game!
- 
+
 ## Features
 
 - **Main Menu**: Choose from various options including learning the rules, playing the game, or exiting.
@@ -42,6 +51,16 @@ A simple yet entertaining number guessing game implemented in Python. Test your 
 3. If you choose to play the game, enter your guesses when prompted.
 4. Receive feedback on each guess and continue guessing until you find the correct number.
 5. Return to the main menu to explore other options or play another round.
+
+## Application Performance
+
+This application is designed to provide a smooth and seamless user experience. The interface is responsive, allowing users to navigate effortlessly through the menus. The interactions are intuitive, ensuring that users can quickly understand how to use the program without encountering any lag or delay.
+
+Additionally, the application's performance has been optimized to ensure fast response times and minimal loading times. This means that users can enjoy a fluid experience, with no interruptions or slowdowns, even when running the program on lower-end devices or in resource-constrained environments.
+
+For a visual representation of the application's performance, you can refer to the screenshot below, captured using Lighthouse:
+
+[//]: # ()![test light house](https://github.com/sergiu19996/number-lottery/assets/126587603/7c77b85f-dcec-4b8b-91c1-51d565c44287)
 
 
 ## Debugging
