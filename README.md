@@ -20,7 +20,13 @@ A simple yet entertaining number guessing game implemented in Python. Test your 
 
 
 4. After each guess, the program will provide feedback.
+![screencapture-number-lottery-2-a0989c962984-herokuapp-2024-04-22-20_06_04](https://github.com/sergiu19996/number-lottery/assets/126587603/b201992e-4fee-4262-8058-8757f1811c89)
+
+   
 5. Keep guessing until you correctly guess the number.
+![screencapture-number-lottery-2-a0989c962984-herokuapp-2024-04-22-20_06_33](https://github.com/sergiu19996/number-lottery/assets/126587603/9e3f0f33-691c-4aed-b7d4-fd30e1daf57e)
+
+   
 6. Have fun and enjoy the game!
 
 ## Features
@@ -63,12 +69,31 @@ For a visual representation of the application's performance, you can refer to t
 ![test light house](https://github.com/sergiu19996/number-lottery/assets/126587603/7c77b85f-dcec-4b8b-91c1-51d565c44287)
 ![screencapture-pep8ci-herokuapp-2024-04-22-20_05_20](https://github.com/sergiu19996/number-lottery/assets/126587603/e5ff59b2-08cb-4717-a1ed-f7a5c3dc95ae)
 
+## Bugs
 
-## Debugging
+Here are some bugs that have been identified in the code:
 
-- **Invalid Input**: If you encounter errors related to invalid input, ensure that you are entering only numeric values when prompted for guesses.
-- **Out of Range**: If you receive warnings about your guess being out of range, double-check the range specified and make sure your guess falls within it.
-- **Endless Loop**: If the game seems to be stuck in an endless loop, check for logical errors in the code, especially within the guess evaluation loop.
+1. **Input Validation Bug**: 
+   - **Description**: When entering non-numeric input during the guessing game, the program does not handle the error gracefully.
+   - **Impact**: This bug can cause the program to crash or produce unexpected behavior if the user enters invalid input.
+   - **Fix**: Implement input validation to ensure that only numeric input is accepted during the guessing game.
+
+2. **Infinite Loop Bug**:
+   - **Description**: In certain scenarios, the program may enter an infinite loop and become unresponsive.
+   - **Impact**: This bug prevents the user from interacting with the program and requires manually terminating the process.
+   - **Fix**: Identify the conditions that lead to the infinite loop and implement appropriate exit conditions to prevent it.
+
+3. **Display Bug**:
+   - **Description**: The formatting of text output in the terminal may be inconsistent or unclear in some cases.
+   - **Impact**: This bug can make it difficult for users to understand the information presented by the program.
+   - **Fix**: Review the text formatting and ensure that it is consistent and easy to read across all scenarios.
+
+4. **Compatibility Bug**:
+   - **Description**: The program may not be compatible with certain versions of Python or external libraries.
+   - **Impact**: This bug can prevent the program from running correctly on some systems or environments.
+   - **Fix**: Update the code to ensure compatibility with a wider range of Python versions and dependencies.
+
+
   
 ## User Stories:
 - First Time Visitor Goals:
@@ -79,16 +104,11 @@ For a visual representation of the application's performance, you can refer to t
   - Experience different outcomes by guessing different numbers.
   - Enjoy readable feedback and instructions.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - This project was inspired by classic number guessing games.
 - Special thanks to [simple-term-menu](https://github.com/IngoMeyer441/simple-term-menu) for providing an easy-to-use terminal menu library.
 
-## Deployment
 
 ### Deploying to Heroku
 
@@ -97,8 +117,6 @@ To deploy the project to Heroku and run it as a remote web application, follow t
 1. Clone the repository:
 git clone https://github.com/IuliiaKonovalova/madlib_with_python.git
 
-vbnet
-Copy code
 
 2. Create your own GitHub repository to host the code.
 
@@ -106,9 +124,6 @@ Copy code
 
 4. Push the files to your repository with the following command: 
 git push
-
-markdown
-Copy code
 
 5. Create a Heroku account if you don't already have one [here](https://www.heroku.com/).
 
@@ -126,7 +141,7 @@ Copy code
 
 To deploy the project to Render and run it as a remote web application, follow these steps:
 
-1. Link to the deployed application on Render: [The Maddest Madlib](<[Your Render App Link](https://number-lottery-2-a0989c962984.herokuapp.com/)>)
+1. Link to the deployed application on Render: [number-lottery](<[Your Render App Link](https://number-lottery-2-a0989c962984.herokuapp.com/)>)
 
 2. Create a new Render account if you don't already have one [here](https://render.com/).
 
