@@ -86,3 +86,67 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - This project was inspired by classic number guessing games.
 - Special thanks to [simple-term-menu](https://github.com/IngoMeyer441/simple-term-menu) for providing an easy-to-use terminal menu library.
+
+## Deployment
+
+### Deploying to Heroku
+
+To deploy the project to Heroku and run it as a remote web application, follow these steps:
+
+1. Clone the repository:
+git clone https://github.com/IuliiaKonovalova/madlib_with_python.git
+
+vbnet
+Copy code
+
+2. Create your own GitHub repository to host the code.
+
+3. Run the command `git remote set-url origin <Your GitHub Repo Path>` to set the remote repository location to your repository.
+
+4. Push the files to your repository with the following command: 
+git push
+
+markdown
+Copy code
+
+5. Create a Heroku account if you don't already have one [here](https://www.heroku.com/).
+
+6. Create a new Heroku application [here](https://dashboard.heroku.com/new-app).
+
+7. Link your GitHub account and connect the application to the repository you created.
+
+8. Go to the Deploy tab and deploy the branch.
+
+9. Wait for the completion of the deployment.
+
+10. Click "Open app" to launch the application inside a web page.
+
+### Deploying to Render
+
+To deploy the project to Render and run it as a remote web application, follow these steps:
+
+1. Link to the deployed application on Render: [The Maddest Madlib](<[Your Render App Link](https://number-lottery-2-a0989c962984.herokuapp.com/)>)
+
+2. Create a new Render account if you don't already have one [here](https://render.com/).
+
+3. Create a new application and choose Webserver.
+
+4. Select the GitHub option and connect the application to the repository you created.
+
+5. Search for the repository you created and click "Connect."
+
+6. Create a name for the application and select the region where you want to deploy it.
+
+7. Select the branch to deploy and choose the environment variables.
+
+8. Set the Render build command to `pip3 install -r requirements.txt && npm install`.
+
+9. Set the Render start command to `node index.js`.
+
+10. Select the Free plan and click on "Advanced" settings.
+
+11. Add the environment variables: 
+ - `PORT` with the value `8000`
+ - `PYTHON_VERSION` with the value `3.10.7`
+
+12. Click "Create Web Service" and wait for the completion of the deployment.
