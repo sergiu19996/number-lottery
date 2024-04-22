@@ -60,7 +60,8 @@ Additionally, the application's performance has been optimized to ensure fast re
 
 For a visual representation of the application's performance, you can refer to the screenshot below, captured using Lighthouse:
 
-[//]: # ()![test light house](https://github.com/sergiu19996/number-lottery/assets/126587603/7c77b85f-dcec-4b8b-91c1-51d565c44287)
+![test light house](https://github.com/sergiu19996/number-lottery/assets/126587603/7c77b85f-dcec-4b8b-91c1-51d565c44287)
+![screencapture-pep8ci-herokuapp-2024-04-22-20_05_20](https://github.com/sergiu19996/number-lottery/assets/126587603/e5ff59b2-08cb-4717-a1ed-f7a5c3dc95ae)
 
 
 ## Debugging
